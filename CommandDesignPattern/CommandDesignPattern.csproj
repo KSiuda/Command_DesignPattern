@@ -43,8 +43,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IControllable.cs" />
+    <Compile Include="IElectronicDevice.cs" />
+    <Compile Include="IRemoteControlled.cs" />
+    <Compile Include="PowerButton.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TV.cs" />
+    <Compile Include="TVRemoteController.cs" />
+    <Compile Include="VolumeDownButton.cs" />
+    <Compile Include="VolumeUpButton.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
